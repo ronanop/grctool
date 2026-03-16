@@ -1,0 +1,107 @@
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual env
+venv/
+ENV/
+env/
+.venv
+backend/venv/
+
+# ======================
+# FASTAPI / DATABASE
+# ======================
+*.db
+*.sqlite
+
+# ======================
+# ENV FILES
+# ======================
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# ======================
+# AI / RAG DATA (VERY IMPORTANT)
+# ======================
+backend/chroma_data/
+backend/chroma_db/
+backend/offload_weights/
+backend/uploads/
+uploads/
+
+# Ollama model cache / config
+backend/uploads# Ollama Configuration
+
+# ======================
+# NODE / FRONTEND
+# ======================
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+dist-ssr/
+.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ======================
+# EDITOR
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+venv/
+.venv/
+env/
+ENV/
+
+# ======================
+# LOGS
+# ======================
+logs/
+*.log
+
+# ======================
+# TESTING
+# ======================
+.coverage
+.pytest_cache/
+htmlcov/
+
+# ======================
+# TEMP / CACHE
+# ======================
+tmp/
+.cache/

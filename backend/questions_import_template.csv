@@ -1,0 +1,60 @@
+compliance_framework,department,control_id,control_name,question_text,question_id
+ISO 27001,IT,A.9.2.1,Access control,Do you have user access management procedures in place?,a
+ISO 27001,IT,A.9.2.1,Access control,Are user access rights reviewed regularly (at least annually)?,b
+ISO 27001,IT,A.9.2.1,Access control,Do you maintain an access control list for all systems?,c
+ISO 27001,IT,A.9.2.1,Access control,Are access rights removed when employees change roles or leave?,d
+ISO 27001,IT,A.9.2.2,User access management,Are user accounts created only after proper authorization?,a
+ISO 27001,IT,A.9.2.2,User access management,Are user accounts deleted or disabled when employees leave?,b
+ISO 27001,IT,A.9.2.2,User access management,Do you have a process for managing privileged access accounts?,c
+ISO 27001,IT,A.9.2.2,User access management,Are privileged accounts reviewed and monitored regularly?,d
+ISO 27001,IT,A.9.4.2,Secure log-on procedures,Do you require strong passwords for all user accounts?,a
+ISO 27001,IT,A.9.4.2,Secure log-on procedures,Is multi-factor authentication implemented for sensitive systems?,b
+ISO 27001,IT,A.9.4.2,Secure log-on procedures,Are failed login attempts logged and monitored?,c
+ISO 27001,IT,A.12.4.1,Event logging,Do you maintain audit logs for all system access?,a
+ISO 27001,IT,A.12.4.1,Event logging,Are audit logs protected from tampering or deletion?,b
+ISO 27001,IT,A.12.4.1,Event logging,Are audit logs reviewed regularly for security incidents?,c
+ISO 27001,IT,A.12.6.1,Management of technical vulnerabilities,Do you have a process for identifying and patching security vulnerabilities?,a
+ISO 27001,IT,A.12.6.1,Management of technical vulnerabilities,Are security patches applied within defined timeframes?,b
+ISO 27001,IT,A.12.6.1,Management of technical vulnerabilities,Do you maintain an inventory of all software and systems?,c
+ISO 27001,HR,A.7.1.1,Screening,Do you perform background checks on new employees?,a
+ISO 27001,HR,A.7.1.1,Screening,Are employment contracts signed before access is granted?,b
+ISO 27001,HR,A.7.1.2,Terms and conditions of employment,Do employment contracts include information security responsibilities?,a
+ISO 27001,HR,A.7.1.2,Terms and conditions of employment,Are employees required to sign confidentiality agreements?,b
+ISO 27001,Finance,A.10.1.1,Documented operating procedures,Do you have documented procedures for financial data processing?,a
+ISO 27001,Finance,A.10.1.1,Documented operating procedures,Are financial procedures reviewed and updated regularly?,b
+ISO 27001,Finance,A.10.1.2,Change management,Do you have a change management process for financial systems?,a
+ISO 27001,Finance,A.10.1.2,Change management,Are all changes to financial systems tested before implementation?,b
+SOC 2,IT,CC6.1,Logical access controls,Do you have logical access controls to protect against unauthorized access?,a
+SOC 2,IT,CC6.1,Logical access controls,Are access controls reviewed periodically?,b
+SOC 2,IT,CC6.1,Logical access controls,Are access rights removed promptly when no longer needed?,c
+SOC 2,IT,CC6.2,Authentication,Is user authentication required for all system access?,a
+SOC 2,IT,CC6.2,Authentication,Are authentication credentials encrypted in transit and at rest?,b
+SOC 2,IT,CC6.2,Authentication,Do you enforce password complexity requirements?,c
+SOC 2,IT,CC6.6,Data transmission,Is data encrypted when transmitted over public networks?,a
+SOC 2,IT,CC6.6,Data transmission,Do you use secure communication protocols (TLS/SSL)?,b
+SOC 2,IT,CC6.7,Data disposal,Do you have procedures for secure data disposal?,a
+SOC 2,IT,CC6.7,Data disposal,Are storage media securely wiped before disposal?,b
+SOC 2,IT,CC7.1,System operations,Do you have documented system operation procedures?,a
+SOC 2,IT,CC7.1,System operations,Are system operations monitored and logged?,b
+GDPR,Legal,Article 32,Security of processing,Do you implement appropriate technical measures to ensure data security?,a
+GDPR,Legal,Article 32,Security of processing,Do you have encryption in place for personal data?,b
+GDPR,Legal,Article 32,Security of processing,Are regular security assessments conducted?,c
+GDPR,Legal,Article 32,Security of processing,Do you have access controls to prevent unauthorized access to personal data?,d
+GDPR,Legal,Article 33,Notification of breach,Do you have a process for detecting personal data breaches?,a
+GDPR,Legal,Article 33,Notification of breach,Can you notify the supervisory authority within 72 hours of a breach?,b
+GDPR,Legal,Article 33,Notification of breach,Do you maintain records of all data breaches?,c
+GDPR,Legal,Article 35,Data protection impact assessment,Do you conduct data protection impact assessments for high-risk processing?,a
+GDPR,Legal,Article 35,Data protection impact assessment,Are DPIA results documented and reviewed?,b
+GDPR,IT,Article 32,Security of processing,Is personal data encrypted at rest?,a
+GDPR,IT,Article 32,Security of processing,Are backup systems secured and encrypted?,b
+GDPR,IT,Article 32,Security of processing,Do you have intrusion detection systems in place?,c
+HIPAA,Healthcare,164.312(a)(1),Access control,Do you have unique user identification for all system users?,a
+HIPAA,Healthcare,164.312(a)(1),Access control,Are access controls implemented to allow only authorized access?,b
+HIPAA,Healthcare,164.312(a)(1),Access control,Are access rights reviewed and updated regularly?,c
+HIPAA,Healthcare,164.312(e)(1),Transmission security,Is ePHI encrypted when transmitted electronically?,a
+HIPAA,Healthcare,164.312(e)(1),Transmission security,Do you have integrity controls to prevent unauthorized alteration of ePHI?,b
+HIPAA,Healthcare,164.312(e)(1),Transmission security,Are secure communication channels used for ePHI transmission?,c
+HIPAA,Healthcare,164.312(e)(2),Audit controls,Do you have audit controls to record access to ePHI?,a
+HIPAA,Healthcare,164.312(e)(2),Audit controls,Are audit logs reviewed regularly for unauthorized access?,b
+HIPAA,Healthcare,164.308(a)(1),Security management process,Do you have a security management process in place?,a
+HIPAA,Healthcare,164.308(a)(1),Security management process,Are security risks assessed and mitigated?,b

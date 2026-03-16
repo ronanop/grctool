@@ -1,0 +1,23 @@
+# systemd unit for ISO 27001 Compliance Portal FastAPI backend
+# 1. Copy to /etc/systemd/system/decgrc-backend.service
+# 2. Edit WorkingDirectory, ExecStart path, and EnvironmentFile (path to backend/.env)
+# 3. Optionally set User= and Group= (e.g. www-data if Nginx runs as www-data; else your deploy user)
+# 4. systemctl daemon-reload && systemctl enable --now decgrc-backend.service
+
+[Unit]
+Description=ISO 27001 Compliance Portal API (FastAPI)
+After=network.target
+# If MongoDB is local: After=network.target mongod.service
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/app/decgrc/backend
+EnvironmentFile=/var/app/decgrc/backend/.env
+ExecStart=/var/app/decgrc/backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

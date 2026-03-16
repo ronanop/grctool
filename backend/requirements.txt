@@ -1,0 +1,37 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+motor==3.6.0
+pymongo==4.9.0
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.2
+python-multipart==0.0.20
+pydantic==2.10.0
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+httpx==0.27.0
+openai>=1.0.0
+# Vector DB: Pinecone
+pinecone>=3.0.0
+# Local vector DB
+chromadb>=0.4.0
+pypdf==4.0.1
+sentence-transformers==2.3.1
+numpy>=1.24.0,<2.0.0
+openpyxl==3.1.5
+# PyTorch for GPU acceleration (install CUDA version separately if needed)
+# For CPU-only: pip install torch torchvision torchaudio
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+# OCR for image text extraction
+easyocr>=1.7.0
+Pillow>=10.0.0
+# OpenCV for EasyOCR (must be <4.10 to work with numpy<2.0.0)
+opencv-python-headless>=4.5.0,<4.10
+# Voice processing
+openai-whisper>=20231117  # Speech-to-Text (offline)
+edge-tts>=6.1.0  # Microsoft Edge TTS (Text-to-Speech, offline, works with Python 3.12)
+pydub>=0.25.1  # Audio conversion (helps with WebM to WAV conversion)
+# TTS>=0.20.0  # Coqui TTS (Text-to-Speech, offline) - Not compatible with Python 3.12 yet
+soundfile>=0.12.0  # For audio file handling (optional, for Coqui TTS if available)
+
